@@ -1,0 +1,58 @@
+[app]
+app_name = "RR Manager"
+description = "RR Manager"
+index_title = "Help documentation"
+
+[ui]
+greetings_text = "RR 매니저에 오신 것을 환영합니다!"
+tab_general = "일반"
+tab_addons = "애드온"
+tab_configuration = "설정"
+
+lb_select_update_file = "업데이트 파일을 선택하세요:"
+upload_update_file_form_validation_invalid_msg = "업로드를 시작하기 전에 update/updaeAll 파일을 선택하세요."
+alt_confirm = "확인"
+update_rr_progress_msg = "RR 업데이트가 진행 중입니다: {0}. 상태: {1}."
+update_rr_completed = "RR 성공적으로 업데이트되었습니다. NAS를 다시 시작하세요."
+update_rr_error_msg = "RR 업데이트할 수 없습니다. 상태 코드: {0}, 이유: {1}"
+update_rr_confirmation = "현제 RR 버전: {0}. 업데이트 파일 버전: {1}"
+update_rr_confirmation_title = "업데이트 확인"
+confirm_system_clean_up_msg = "시스템 파티션 정리 스크립트를 실행하시겠습니까?"
+confirm_system_clean_up_title = "시스템 정리 확인"
+
+unable_update_rr_msg = "RR 업데이트할 수 없습니다: {0}. 파일을 다시 업로드하고 시도하세요."
+upload_file_dialog_title = "파일 업로드"
+
+select_file = "파일 선택"
+loading_text = "로딩..."
+system_info = "🖥️시스템 정보:"
+
+rr_actions = "RR 로더 실행"
+required_tasks_is_missing = "다음 필수 작업 {0}이 시스템에 없습니다. 암호를 입력해야 합니다. 생성하시겠습니까?"
+tasks_created_msg = "성공적으로 생성되었습니다. RR Manage 앱을 다시 시작하십시오."
+share_notfound_msg = "주의! {0} 폴더를 찾을 수 없습니다. 공유 폴더를 만들고 앱을 다시 시작하세요."
+required_components_missing-title = "필수 구성 요소가 누락되었습니다."
+required_components_missing_spinner_msg = "시스템에 일부 작업이 누락된 것 같습니다.: {0}. RR 매니저를 사용하기 전에 온보딩 프로세스를 완료하세요."
+file_uploading_succesfull_msg = "파일이 성공적으로 업로드 되었습니다. 업데이트 절차를 진행하시겠습니까?"
+update_confirm_title = "업데이트 확인"
+uploading_file = "파일 업로드 중..."
+save_addons_changes = "애드온 변경 사항 저장"
+
+rr_config_applied="RR 구성이 성공적으로 저장되었습니다. 변경 사항을 적용하려면 NAS를 다시 시작하세요."
+checking_dependencies_loader="종속성을 확인하는 중..."
+file_uploading_failed_msg="파일 업로드 오류"
+completed="완료:"
+
+section_rr_actions="RR 실행"
+run_update="업데이트 실행"
+
+frm_validation_fill_required_fields="필수 항목을 입력해 주세요."
+frm_validation_no_change="저장할 내용 없음"
+
+save_addons_btn="애드온 저장"
+
+col_system="시스템"
+col_installed="설치됨"
+col_version="버전"
+col_name="이름"
+col_description="설명"
