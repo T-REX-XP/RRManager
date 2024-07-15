@@ -11,68 +11,67 @@ tab_configuration = "Configuration"
 tab_debug = "Debug"
 
 alt_confirm = "Confirm"
-confirm_system_clean_up_msg = "Would you like to run clean up sustem partition script?"
+confirm_system_clean_up_msg = "Would you like to run the clean-up system partition script?"
 confirm_system_clean_up_title = "Confirm system cleanup"
 
 upload_file_dialog_title = "Upload File"
 
 loading_text = "Loading..."
-system_info = "🖥️System Info:"
+system_info = "🖥️ System Info:"
 
 rr_actions = "RR Loader Actions"
 required_tasks_is_missing = "The following required tasks {0} are missing in the system. It will require entering your password. Do you want to create them?"
 tasks_created_msg = "The tasks have been successfully created. Please restart the RR Manager app."
 share_notfound_msg = "Attention! The {0} folder not found. Please create the share/folder and restart the app."
 required_components_missing-title = "Required components missing"
-required_components_missing_spinner_msg = "It seems like some of the tasks are missing in the system: {0}. Please complete the onboarding process before start using RR Manager."
+required_components_missing_spinner_msg = "It seems like some of the tasks are missing in the system: {0}. Please complete the onboarding process before starting to use RR Manager." 
 update_confirm_title = "Confirm update"
 uploading_file = "Uploading file..."
 save_addons_changes = "Save addons changes"
 
-rr_config_applied="The RR config has been successfully applied. Please restart the NAS to apply the changes."
-checking_dependencies_loader="Checking the dependencies..."
+rr_config_applied = "The RR config has been successfully applied. Please restart the NAS to apply the changes."
+checking_dependencies_loader = "Checking the dependencies..."
 
-section_rr_actions="Update RR Loader"
-run_update="Upload file"
+section_rr_actions = "Update RR Loader"
+run_update = "Upload file"
 
-frm_validation_fill_required_fields="Please fill in the required field(s)."
-frm_validation_no_change="Nothing to save"
+frm_validation_fill_required_fields = "Please fill in the required field(s)."
+frm_validation_no_change = "Nothing to save"
 
-save_addons_btn="Save Addons"
+save_addons_btn = "Save Addons"
 
-col_system="System"
-col_installed="Installed"
-col_version="Verison"
-col_name="Name"
-col_description="Description"
+col_system = "System"
+col_installed = "Installed"
+col_version = "Version"
+col_name = "Name"
+col_description = "Description"
 
+prompt_update_available_title = "Update Available"
+prompt_update_available_message = "The new version {0} of RR is available. Do you want to download it via Download Manager?"
 
-prompt_update_available_title="Update Available"
-prompt_update_available_message="The new version {0} of RR is available. Do you want to download it via Download Manager?"
+addons_all = "All"
+addons_system = "System"
 
-addons_all="All"
-addons_system="System"
+from_pc = "From PC"
+from_ds = "From DiskStation"
 
-from_pc="From PC"
-from_ds="From DiskStation"
-
-image_name="Image Name"
+image_name = "Image Name"
 
 #TODO: translate
 [upload_file_dialog]
 lb_select_update_file = "Please select the update file:"
 choose_file_title = "Choose update file"
 select_file = "Select File"
-file_uploading_succesfull_msg = "File has been successfully uploaded. Would you like to run update procedure?"
-file_uploading_failed_msg = "Error file uploading."
+file_uploading_succesfull_msg = "File has been successfully uploaded. Would you like to run the update procedure?"
+file_uploading_failed_msg = "Error uploading file."
 completed = "Completed:"
-unable_update_rr_msg = "Unable to update RR: {0}. Please upload the file and try againe."
+unable_update_rr_msg = "Unable to update RR: {0}. Please upload the file and try again."
 update_rr_completed = "The RR has been successfully updated. Please restart the NAS."
 update_rr_progress_msg = "Update RR in progress: {0}. Status: {1}."
 update_rr_error_msg = "Unable to update RR. Status code: {0}, Reason: {1}"
-update_rr_confirmation = "Curent RR version: {0}. Update file version: {1}"
+update_rr_confirmation = "Current RR version: {0}. Update file version: {1}"
 update_rr_confirmation_title = "Confirm update"
-upload_update_file_form_validation_invalid_msg = "Please select the update/updateAll file before start uploading."
+upload_update_file_form_validation_invalid_msg = "Please select the update/updateAll file before starting to upload."
 btn_proceed = "Proceed"
 
 [health_panel]
@@ -83,11 +82,11 @@ btn_from_ds = "From DiskStation"
 checkbox_dont_show_again = "Don't show again"
 
 [widget]
-danger_status="Danger!"
-danger_status_message="Your RR is not working properly."
+danger_status = "Danger!"
+danger_status_message = "Your RR is not working properly."
 
-attention_status="Attention!"
-attention_status_message="Your RR is waiting for reboot."
+attention_status = "Attention!"
+attention_status_message = "Your RR is waiting for a reboot."
 
-good_status="Healtly"
-good_status_message="Your RR is working well."
+good_status = "Healthy"
+good_status_message = "Your RR is working well."
