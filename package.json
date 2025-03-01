@@ -1,50 +1,36 @@
 {
-  "name": "rr-manager",
+  "name": "ExamplePackage",
+  "private": true,
   "version": "1.0.0",
-  "description": "![Main Screen](img/main.gif)\r RRManager is a Redpill Recovery DSM application aimed to provide the ability to configure/update RR without booting to RR recovery. This package is for experienced users.",
-  "main": "index.js",
+  "description": "",
+  "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack",
-    "debug": "webpack watch",
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --progress --mode development",
     "lint": "eslint ./src/**/*.js",
     "lint:fix": "eslint ./src/**/*.js --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/T-REX-XP/RRManager.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/T-REX-XP/RRManager/issues"
-  },
-  "homepage": "https://github.com/T-REX-XP/RRManager#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.24.4",
-    "cross-env": "^7.0.3",
+    "@babel/core": "^7.26.9",
+    "@babel/plugin-transform-runtime": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^8.4.1",
+    "css-loader": "^7.1.2",
+    "sass": "^1.85.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "5.3.10",
+    "vue": "^3.5.13",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^0.1.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "terser-webpack-plugin": "^5.3.10",
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "@xterm/addon-attach": "^0.11.0",
-    "@xterm/addon-canvas": "^0.6.0",
-    "@xterm/addon-fit": "^0.9.0",
-    "@xterm/addon-image": "^0.7.0",
-    "@xterm/addon-unicode11": "^0.7.0",
-    "@xterm/addon-web-links": "^0.10.0",
-    "@xterm/addon-webgl": "^0.17.0",
-    "@xterm/xterm": "^5.4.0",
-    "decko": "^1.2.0",
-    "eslint": "^8.57.1",
-    "file-saver": "^2.0.5",
-    "preact": "^10.19.6",
-    "trzsz": "^1.1.5",
-    "whatwg-fetch": "^3.6.20",
-    "zmodem.js": "^0.1.10"
+    "eslint-plugin-simple-import-sort": "^12.1.1"
   }
 }
