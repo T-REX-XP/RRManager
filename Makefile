@@ -83,7 +83,7 @@ rr-manager_extra_install:
 		install -m 644 src/app/help/$${language}/simpleapp_index.html $(STAGING_DIR)/app/help/$${language}/simpleapp_index.html; \
 	done
 	install -m 755 -d $(STAGING_DIR)/app/texts
-	for language in enu rus chs cht krn; do \
+	for language in enu rus ukr chs cht krn; do \
 		install -m 755 -d $(STAGING_DIR)/app/texts/$${language}; \
 		install -m 644 src/app/texts/$${language}/strings $(STAGING_DIR)/app/texts/$${language}/strings; \
 	done
