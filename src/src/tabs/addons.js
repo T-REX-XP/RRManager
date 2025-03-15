@@ -164,7 +164,8 @@ export default Ext.define('SYNOCOMMUNITY.RRManager.Addons.Main', {
       trk: 'tr_TR', // Turkish in Turkey
       csy: 'cs_CZ', // Czech in Czech Republic
       gre: 'el_GR', // Greek in Greece
-      rus: 'uk-UA',
+      ukr: 'uk-UA',
+      rus: 'ru-RU', // Russian in Russia
       heb: 'he_IL', // Hebrew in Israel
       ara: 'ar_SA', // Arabic in Saudi Arabia
       tha: 'th_TH', // Thai in Thailand
