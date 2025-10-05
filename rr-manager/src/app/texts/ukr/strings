@@ -1,0 +1,60 @@
+[app]
+app_name = "RR Manager"
+description = "RR Manager"
+index_title = "Документація допомоги"
+
+[ui]
+greetings_text = "Ласкаво просимо до RR Manager!"
+tab_general = "Загальне"
+tab_addons = "Додатки"
+tab_configuration = "Конфігурація"
+tab_debug = "Відлагодження"
+tab_console = "Консоль"
+
+lb_select_update_file = "Будь ласка, виберіть файл оновлення:"
+upload_update_file_form_validation_invalid_msg = "Будь ласка, виберіть файл оновлення/оновленняВсіх перед початком завантаження."
+alt_confirm = "Підтвердити"
+update_rr_progress_msg = "Оновлення RR у процесі: {0}. Статус: {1}."
+update_rr_completed = "RR успішно оновлено. Будь ласка, перезавантажте NAS."
+update_rr_error_msg = "Не вдалося оновити RR. Код статусу: {0}, Причина: {1}"
+update_rr_confirmation = "Поточна версія RR: {0}. Версія файлу оновлення: {1}"
+update_rr_confirmation_title = "Підтвердження оновлення"
+confirm_system_clean_up_msg = "Бажаєте запустити скрипт очищення системного розділу?"
+confirm_system_clean_up_title = "Підтвердження очищення системи"
+
+unable_update_rr_msg = "Не вдалося оновити RR: {0}. Будь ласка, завантажте файл та спробуйте знову."
+upload_file_dialog_title = "Завантажити файл"
+
+select_file = "Вибрати файл"
+loading_text = "Завантаження..."
+system_info = "🖥️Інформація про систему:"
+
+rr_actions = "Дії RR Loader"
+required_tasks_is_missing = "В системі відсутні наступні необхідні задачі {0}. Це потребуватиме введення вашого паролю. Бажаєте створити їх?"
+tasks_created_msg = "Задачі успішно створено. Будь ласка, перезапустіть додаток RR Manager."
+share_notfound_msg = "Увага! Папка {0} не знайдена. Будь ласка, створіть спільний доступ/папку та перезапустіть додаток."
+required_components_missing_title = "Відсутні необхідні компоненти"
+required_components_missing_spinner_msg = "Схоже, що деякі задачі відсутні в системі: {0}. Будь ласка, завершіть процес входу перед початком використання RR Manager."
+file_uploading_succesfull_msg = "Файл успішно завантажено. Бажаєте запустити процедуру оновлення?"
+update_confirm_title = "Підтвердження оновлення"
+uploading_file = "Завантаження файлу..."
+save_addons_changes = "Зберегти зміни додатків"
+
+rr_config_applied="Конфігурація RR успішно застосована. Будь ласка, перезавантажте NAS для застосування змін."
+checking_dependencies_loader="Перевірка залежностей..."
+file_uploading_failed_msg="Помилка завантаження файлу."
+completed="Завершено:"
+
+section_rr_actions="Дії RR"
+run_update="Запустити оновлення"
+
+frm_validation_fill_required_fields="Будь ласка, заповніть необхідні поля."
+frm_validation_no_change="Немає змін для збереження"
+
+save_addons_btn="Зберегти додатки"
+
+col_system="Система"
+col_installed="Встановлено"
+col_version="Версія"
+col_name="Назва"
+col_description="Опис"

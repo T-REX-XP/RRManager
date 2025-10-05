@@ -164,7 +164,8 @@ export default Ext.define('SYNOCOMMUNITY.RRManager.Addons.Main', {
       trk: 'tr_TR', // Turkish in Turkey
       csy: 'cs_CZ', // Czech in Czech Republic
       gre: 'el_GR', // Greek in Greece
-      rus: 'uk-UA',
+      ukr: 'uk-UA',
+      rus: 'ru_RU', // Russian in Russia
       heb: 'he_IL', // Hebrew in Israel
       ara: 'ar_SA', // Arabic in Saudi Arabia
       tha: 'th_TH', // Thai in Thailand
@@ -339,7 +340,7 @@ export default Ext.define('SYNOCOMMUNITY.RRManager.Addons.Main', {
       if (
         (t.date_from &&
           (t.date_from = Date.parseDate(t.date_from, SYNO.SDS.DateTimeUtils.GetDateFormat()) / 1e3),
-        t.date_to)
+          t.date_to)
       ) {
         const e = Date.parseDate(t.date_to, SYNO.SDS.DateTimeUtils.GetDateFormat());
         e.setDate(e.getDate() + 1), (t.date_to = e / 1e3 - 1);
@@ -418,15 +419,15 @@ export default Ext.define('SYNOCOMMUNITY.RRManager.Addons.Main', {
     this.appWin.setStatusBusy();
     this.appWin.handleFileUpload(rrConfig.user_config);
   },
-  onLogClear: function () {},
+  onLogClear: function () { },
   onExportCSV: function () {
     this.onLogSave('csv');
   },
   onExportHtml: function () {
     this.onLogSave('html');
   },
-  onLogSave: function (e) {},
-  saveLog: function (e) {},
+  onLogSave: function (e) { },
+  saveLog: function (e) { },
   destroy: function () {
     this.rowNav && (Ext.destroy(this.rowNav), (this.rowNav = null)),
       this.searchField && this.searchField.fireEvent('destroy'),
